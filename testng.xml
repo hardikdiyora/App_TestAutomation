@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite for DropBox Web Application">
+    <test name="Tests for Login, File and Folder functionality">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="email" value="PLEASE ENTER EMAIL"/>
+        <parameter name="password" value="PLEASE ENTER PASSWORD"/>
+        <parameter name="access_token" value="PLEASE ENTER ACCESS TOKEN"/>
+        <classes>
+            <class name="ui.LoginTests"/>
+            <class name="ui.FileTests"/>
+            <class name="ui.FolderTests"/>
+        </classes>
+    </test>
+</suite>

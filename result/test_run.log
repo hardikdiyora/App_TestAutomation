@@ -1,0 +1,35 @@
+02 Sep 2018 19:24:34 [INFO ] org.springframework.context.support.AbstractApplicationContext prepareRefresh:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6e6c3152: startup date [Sun Sep 02 19:24:34 IST 2018]; root of context hierarchy
+02 Sep 2018 19:24:35 [INFO ] ui.TestBase openBrowser:29 - Opening the Chrome Browser.
+02 Sep 2018 19:24:37 [INFO ] ui.TestBase openWebApp:54 - Opening the Dropbox Web Application Login Page.
+02 Sep 2018 19:24:40 [INFO ] ui.LoginTests emptyEmail_InLoginFormError:31 - Verify a user is able to see proper error message related to email.
+02 Sep 2018 19:24:46 [INFO ] pages.LoginPage loginToAccount:31 - Email field has empty value.
+02 Sep 2018 19:24:47 [INFO ] ui.TestBase openWebApp:54 - Opening the Dropbox Web Application Login Page.
+02 Sep 2018 19:24:49 [INFO ] ui.LoginTests emptyPwd_InLoginFormError:37 - Verify a user is able to see proper error message related to password.
+02 Sep 2018 19:24:55 [INFO ] pages.LoginPage loginToAccount:35 - Password field has empty value.
+02 Sep 2018 19:24:55 [INFO ] ui.TestBase openWebApp:54 - Opening the Dropbox Web Application Login Page.
+02 Sep 2018 19:24:57 [INFO ] ui.LoginTests loginFailureWithWrongCredentials:43 - Verify a user is able to see error message on wrong credentials.
+02 Sep 2018 19:25:03 [INFO ] pages.HomePage checkNavMenu:22 - Checking the Priduct navigation menu is present.
+02 Sep 2018 19:25:18 [INFO ] ui.TestBase openWebApp:54 - Opening the Dropbox Web Application Login Page.
+02 Sep 2018 19:25:19 [INFO ] ui.LoginTests loginSuccessFulWithValidCredentials:22 - Verify a user is able to login successfully.
+02 Sep 2018 19:25:26 [INFO ] pages.HomePage checkNavMenu:22 - Checking the Priduct navigation menu is present.
+02 Sep 2018 19:25:28 [INFO ] ui.LoginTests loginSuccessFulWithValidCredentials:25 - Log out from Account.
+02 Sep 2018 19:25:44 [INFO ] ui.TestBase closeBrowser:48 - Quiting the Browser.
+02 Sep 2018 19:25:44 [INFO ] org.springframework.context.support.AbstractApplicationContext prepareRefresh:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@24a0c58b: startup date [Sun Sep 02 19:25:44 IST 2018]; root of context hierarchy
+02 Sep 2018 19:25:44 [INFO ] ui.TestBase openBrowser:29 - Opening the Chrome Browser.
+02 Sep 2018 19:25:45 [INFO ] ui.TestBase openWebApp:54 - Opening the Dropbox Web Application Login Page.
+02 Sep 2018 19:25:53 [INFO ] ui.FileTests uploadFileSuccessFully:31 - Uploading File using DropBox API.
+02 Sep 2018 19:25:54 [INFO ] ui.FileTests uploadFileSuccessFully:33 - Verify File uploaded successfully file.
+02 Sep 2018 19:25:56 [INFO ] ui.FileTests tearDown:46 - Logout from web application.
+02 Sep 2018 19:25:59 [INFO ] ui.TestBase openWebApp:54 - Opening the Dropbox Web Application Login Page.
+02 Sep 2018 19:26:06 [INFO ] ui.FileTests deleteFileSuccessFully:39 - Verify user able to delete file successfully.
+02 Sep 2018 19:26:12 [INFO ] ui.FileTests tearDown:46 - Logout from web application.
+02 Sep 2018 19:26:15 [INFO ] ui.TestBase closeBrowser:48 - Quiting the Browser.
+02 Sep 2018 19:26:15 [INFO ] org.springframework.context.support.AbstractApplicationContext prepareRefresh:589 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3d605657: startup date [Sun Sep 02 19:26:15 IST 2018]; root of context hierarchy
+02 Sep 2018 19:26:15 [INFO ] ui.TestBase openBrowser:29 - Opening the Chrome Browser.
+02 Sep 2018 19:26:16 [INFO ] ui.TestBase openWebApp:54 - Opening the Dropbox Web Application Login Page.
+02 Sep 2018 19:26:25 [INFO ] ui.FolderTests createFolderSuccessFully:25 - Verify user able create new folder successfully.
+02 Sep 2018 19:26:28 [INFO ] ui.FolderTests tearDown:39 - Logout from web application.
+02 Sep 2018 19:26:31 [INFO ] ui.TestBase openWebApp:54 - Opening the Dropbox Web Application Login Page.
+02 Sep 2018 19:26:37 [INFO ] ui.FolderTests deleteFolderSuccessFully:32 - Verify user able to delete folder successfully.
+02 Sep 2018 19:26:42 [INFO ] ui.FolderTests tearDown:39 - Logout from web application.
+02 Sep 2018 19:26:46 [INFO ] ui.TestBase closeBrowser:48 - Quiting the Browser.
